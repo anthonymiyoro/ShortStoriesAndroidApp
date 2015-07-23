@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="@drawable/Bookshelf">
+    android:background="@drawable/book2"
+    android:paddingEnd="30px"
+    android:paddingStart="30px"
+    android:textAlignment="center">
 
     <TextView
         android:layout_width="wrap_content"
@@ -9,8 +12,23 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="A Plethora of Short Stories"
         android:id="@+id/title"
-        android:layout_marginTop="188dp"
+        android:layout_marginTop="148dp"
+        android:textSize="50dp"
         android:layout_alignParentTop="true"
+        android:autoText="false"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textAlignment="center"
+        android:visibility="visible" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_marginTop="78dp"
+        android:layout_below="@+id/title"
         android:layout_centerHorizontal="true"
-        android:textSize="40dp" />
+        android:progressBackgroundTint="#ff5c302d"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp" />
 </RelativeLayout>
