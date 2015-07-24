@@ -8,7 +8,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/cv"
-        android:background="#ffffffff">
+        android:background="#ffffffff"
+        android:padding="10dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -52,7 +53,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/cv2"
         android:paddingTop="10dp"
-        android:paddingBottom="10dp">
+        android:paddingBottom="10dp"
+        android:background="#ffffffff">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -95,7 +97,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/cv3"
         android:paddingTop="10dp"
-        android:paddingBottom="10dp">
+        android:paddingBottom="10dp"
+        android:background="#ffffffff">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -139,7 +142,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/cv4"
         android:paddingTop="10dp"
-        android:paddingBottom="10dp">
+        android:paddingBottom="10dp"
+        android:background="#ffffffff">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -183,7 +187,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/cv5"
         android:paddingTop="10dp"
-        android:paddingBottom="10dp">
+        android:paddingBottom="10dp"
+        android:background="#ffffffff">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -227,7 +232,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/cv6"
         android:paddingTop="10dp"
-        android:paddingBottom="10dp">
+        android:paddingBottom="10dp"
+        android:background="#ffffffff">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -271,7 +277,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/cv7"
         android:paddingTop="10dp"
-        android:paddingBottom="10dp">
+        android:paddingBottom="10dp"
+        android:background="#ffffffff">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -315,7 +322,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/cv8"
         android:paddingTop="10dp"
-        android:paddingBottom="10dp">
+        android:paddingBottom="10dp"
+        android:background="#ffffffff">
 
         <RelativeLayout
             android:layout_width="match_parent"
