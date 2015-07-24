@@ -4,6 +4,8 @@
     android:layout_height="match_parent" android:padding="10dp"
     android:background="#ff6b6b6b">
 
+
+
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -360,5 +362,7 @@
         </RelativeLayout>
 
     </android.support.v7.widget.CardView>
+
+
 
 </LinearLayout>
