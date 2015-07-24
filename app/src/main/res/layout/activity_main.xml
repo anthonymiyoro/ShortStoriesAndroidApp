@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="Fragment Demo"
         android:textAppearance="?android:textAppearanceLarge"
-        android:id="@+id/textView"
+        android:id="@+id/textView2"
         android:layout_gravity="center_horizontal" />
     <RelativeLayout
         android:layout_width="match_parent"
