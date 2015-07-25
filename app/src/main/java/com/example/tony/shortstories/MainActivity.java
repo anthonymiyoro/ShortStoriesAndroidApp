@@ -16,6 +16,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         FragmentManager fragmentManager= getFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        StoryFragment storyFragment = new StoryFragment();
 
     }
 
