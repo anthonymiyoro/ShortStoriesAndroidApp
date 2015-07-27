@@ -4,6 +4,8 @@ import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -12,6 +14,19 @@ import android.widget.TextView;
 
 public class MainActivity extends ActionBarActivity {
     TextView textView;
+
+//    waits for a click
+    myOnClickListener = new MyOnClickListener(this);
+    // use this setting to improve performance if you know that changes
+    // in content do not change the layout size of the RecyclerView
+    recyclerView.setHasFixedSize(true);
+
+    recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+
+//    sets a linear layout manager
+    layoutManager = new LinearLayoutManager(this);
+    recyclerView.setLayoutManager(layoutManager);
+
 
     private RecyclerView mRecyclerView;
     private RecyclerView.Adapter mAdapter;
