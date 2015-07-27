@@ -12,6 +12,8 @@ import android.widget.TextView;
 
 public class MainActivity extends ActionBarActivity {
     TextView textView;
+    RecyclerView rv = (RecyclerView)findViewById(R.id.rv);
+    rv.setHasFixedSize(true);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
